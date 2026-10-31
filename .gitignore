@@ -1,0 +1,28 @@
+# Node dependencies
+node_modules/
+**/node_modules/
+
+# Python environments
+venv/
+.venv/
+AIML/venv/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.vs/
+.vscode/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Build files
+dist/
+build/
+
+# Logs
+*.log
